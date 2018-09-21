@@ -17,6 +17,3 @@ Arivaa is a series of projects meant to solve real-life development problems. It
 
 ## Want to checkout Arivaa? Try it out [here](overview/buy-and-try-out-arivaa-apps.md)
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNzc3NTc5XX0=
--->

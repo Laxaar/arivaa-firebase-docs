@@ -37,16 +37,37 @@
 
 ## Components
 
-* [Form](components/form.md)
-* [Maps and Geolocation](components/maps-and-geolocation.md)
+* [Accordion](components/accordion.md)
+* [ActionSheet](components/action-sheet.md)
+* [Badges](components/badges.md)
+* [Cards](components/cards.md)
+* [Carousel](components/carousel.md)
+* [Footer](components/footer.md)
+* [Header](components/header.md)
 * [Icon](components/icon.md)
-* [Link](components/link.md)
+* [Image](components/image.md)
+* [Progress](components/progress-component.md)
+* [Range](components/range-component.md)
+* [Thumbnail](components/thumbnail.md)
 * [Image Picker](components/image-picker.md)
-* [Modal](components/modal.md)
+* [Form](components/form.md)
+* [Button](components/button.md)
+* [Date Time](components/date-time-picker-component.md)
+* [Country Code Picker](components/country-code-picker.md)
+* [Input](components/untitled.md)
+* [Link](components/link-component.md)
+* [Prompt](components/prompt.md)
 * [Social Sign In](components/social-sign-in.md)
+* [Maps and Geolocation](components/maps-and-geolocation.md)
+* [Modal](components/modal.md)
+* [Select](components/select-component.md)
+* [Tabs](components/tab-component.md)
+* [Tag](components/tag-component.md)
+* [Toast](components/toast-component.md)
 
 ## License and Privacy Policy
 
 * [License and Terms of use](license-and-privacy-policy/license-and-terms-of-use.md)
 * [Privacy Policy](license-and-privacy-policy/privacy-policy.md)
+* [Sample Template](license-and-privacy-policy/sample-template.md)
 

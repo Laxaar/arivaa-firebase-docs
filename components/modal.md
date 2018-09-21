@@ -2,6 +2,8 @@
 
 This component enables you to open any scene via a modal window. All the modal scenes are defined by the set ModalScenes method. In Arivaa, it is normally done inside _routes.js_ file. Ituses React-Navigation and react-native-modalbox under the hood.
 
+![](../.gitbook/assets/ezgif.com-gif-maker.gif)
+
 ## Usage
 
 Call the setModalScenes method from this component in routing to define all the modal routes for this application. For Arivaa Basic, It is called in js/routing/index.js. This is the standard approach we advise to follow but in case you would like to create modals on the fly with some content you can pass children to Modal or use content property in case ModalTrigger.

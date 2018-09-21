@@ -1,26 +1,38 @@
 # Image Picker
 
-The purpose of this component is to provide image selection functionality in mobiles via Camera Capture and Gallery Selection.
+An Image Picker component is useful in selecting images from the phone's library or taking a photo with the camera.
 
 _Since this component uses Touchable Highlight to provide onPress behaviour, Don't use Touchable Highlight in the children._
+
+![](../.gitbook/assets/ezgif.com-video-to-gif-2.gif)
 
 ## Usage
 
 ```jsx
-<ImagePicker onImageSelected = {this.changeImage.bind(this)}>
-   <Link style={[styles.changeImageLink]}>
-       <Text style={[styles.text]}><Icon type="ionicons" name='md-create'/> Change Image</Text>
-   </Link>
-</ImagePicker>
+import React from 'react'
+import ImagePicker from '../index'
+
+var view = function () {
+    return (
+        <ImagePicker 
+            imageWidth={100} 
+            imageHeight={100} 
+            imageStyle={[styles.imageStyle]}
+        />    
+    )
+}
+module.exports = view
+
 ```
 
 ## Supported Properties
 
-### onImageSelected
+| Properties | Descrition | Type | Defaul |
+| :--- | :--- | :--- | :--- |
+| imageWidth | width of the image | number | - |
+| imageHeight | height of the image | number | - |
+| imageStyle | passing custom style to the image | object | - |
+| closable | either to show close icon or not | boolean | false |
 
-Callback to be called when image is selected. The base64 version of the image is passed as an argument to the callback.
 
-### onPress
-
-Callback on click of children passed to this component.
 
